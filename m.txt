@@ -1,0 +1,457 @@
+    1  ifconfig
+    2  sudo apt-get install idle-python3.4
+    3  apt-get install python-pip
+    4  cd /
+    5  ls
+    6  mkdir line
+    7  ls
+    8  cd line
+    9  ls
+   10  nano linenotify.py
+   11  ls
+   12  python3
+   13  python3 linenotify.py
+   14  pip install MySQL-python
+   15  sudo apt-get install python-pip python-dev libmysqlclient-dev
+   16  python3 linenotify.py
+   17  clear
+   18  python3 linenotify.py
+   19  sudo apt-get install python3-pymysql
+   20  python3 linenotify.py
+   21  ls
+   22  nano linenotify.py 
+   23  python3 linenotify.py
+   24  pwd
+   25  ls
+   26  crontab -e
+   27  pwd
+   28  ls
+   29  python3 linenotify.py 
+   30  crontab -e
+   31  crontab -e
+   32  ls
+   33  cd /
+   34  ls
+   35  cd line
+   36  ls
+   37  cd ..
+   38  ls
+   39  mkdir pushcode
+   40  ls
+   41  cd pushcode/
+   42  nano push.py
+   43  python push.py
+   44  apt-get install mysqldb
+   45  sudo apt-get install python-mysqldb
+   46  python push.py
+   47  pip install pushbullet.py
+   48  python setup.py install
+   49  python push.py
+   50  pip install pushbullet.py
+   51  python setup.py install
+   52  cd /
+   53  ls
+   54  python setup.py install\\\
+   55  find ./ -name setup.py
+   56  pip install pushbullet.py
+   57  cd usr/local/lib/python2.7/dist-packages/
+   58  ls
+   59  cd pushbullet
+   60  ls
+   61  clera
+   62  clear
+   63  ls
+   64  python setup.py install
+   65  ls
+   66  cd ..
+   67  ls
+   68  python setup.py install
+   69  dir/w
+   70  clear
+   71  ls
+   72  cd pushbullet.py-0.10.0.dist-info/
+   73  ls
+   74  cd ..
+   75  ls
+   76  cd /
+   77  ls
+   78  cd line
+   79  ls
+   80  nano linenotify.py 
+   81  crontab -l
+   82  cd /line
+   83  ls
+   84  cat linenotify.py 
+   85  clear
+   86  ls
+   87  nano linenotify.py 
+   88  ls
+   89  ifconfig
+   90  ls
+   91  nano linenotify.py 
+   92  ls
+   93  nano a.py
+   94  python3 a.py
+   95  cd /
+   96  ls
+   97  cd line
+   98  ls
+   99  nano linenotify.py 
+  100  crontab -l
+  101  cd /line
+  102  ls
+  103  nano linenotify.py 
+  104  clear
+  105  ls
+  106  cat linenotify.py 
+  107  crontab -l
+  108  cd /line
+  109  ls
+  110  cat a.py
+  111  clear
+  112  ls
+  113  nano linenotify.py 
+  114  ls
+  115  nano b.py
+  116  python b.py
+  117  python b.py 172.16.1.180
+  118  python b.py 172.16.1.1:80
+  119  python b.py 172.16.1.1 80
+  120  python b.py 172.16.1.1 ,80
+  121  python b.py '172.16.1.1' ,'80'
+  122  python b.py '172.16.1.5' ,'80'
+  123  python b.py '172.16.1.214' ,'80'
+  124  python b.py 172.16.1.214 ,80\
+  125  python b.py 172.16.1.214 ,80
+  126  python b.py -a 172.16.1.214 -p 80
+  127  python b.py -a 172.16.1.214 -p 81
+  128  python b.py -a 8.8.8.8 -p 80
+  129  python b.py -a 8.8.8.8 -p 443
+  130  python b.py -a 172.16.1.216 -p 443
+  131  python b.py -a 172.16.1.216 -p 80
+  132  python b.py -a 172.16.1.127 -p 443
+  133  python b.py -a 172.16.1.127 -p 433
+  134  python b.py -a 172.16.1.129 -p 80
+  135  python b.py -a 172.16.1.128 -p 443
+  136  python b.py -a 10.160.73.254 -p 23
+  137  python b.py -a 10.160.73.254 -p 21
+  138  python b.py -a 172.16.1.12 -p 21
+  139  python b.py -a 172.16.1.12 -p 22
+  140  python b.py -a 172.16.1.171 -p 3306
+  141  python b.py -a 172.16.1.127  -p 6443
+  142  python b.py -a 172.16.1.127  -p 433
+  143  nmap
+  144  python b.py -a 172.16.1.127  -p 6443
+  145  python b.py -a 172.16.1.128  -p 443
+  146  nano b.py 
+  147  cd /line
+  148  ls
+  149  cat a.py
+  150  cat b.py
+  151  exit
+  152  cd /
+  153  ls
+  154  cd home
+  155  python
+  156  ls
+  157  nano t.py
+  158  python t.py
+  159  nmap
+  160  apt-get install nmap
+  161  nmap 172.16.1.201
+  162  nmap 172.16.1.200
+  163  clear
+  164  ls
+  165  mysql -u root -p
+  166  mysql
+  167  crontab -l
+  168  cd /line
+  169  ls
+  170  nano linenotify.py 
+  171  crontab -l
+  172  cd /line
+  173  ls
+  174  cat linenotify.py 
+  175  crontab -l
+  176  pwd
+  177  ls
+  178  cat a.py
+  179  cat b.py
+  180  clear
+  181  curl http://httpbin.org/get
+  182  pwd
+  183  ls
+  184  nano chweb.py
+  185  python chweb.py 
+  186  nano chweb.py
+  187  python chweb.py 
+  188  nano chweb.py
+  189  python chweb.py 
+  190  nano chweb.py
+  191  python chweb.py 
+  192  nano chweb.py
+  193  python chweb.py 
+  194  nano chweb.py
+  195  python chweb.py 
+  196  clear
+  197  python chweb.py 
+  198  nano chweb.py
+  199  python chweb.py 
+  200  nano chweb.py
+  201  python chweb.py 
+  202  nano chweb.py
+  203  python chweb.py 
+  204  nano chweb.py
+  205  nano chweb1.py
+  206  python chweb1.py 
+  207  nano chweb1.py
+  208  python chweb1.py 
+  209  nano chweb1.py
+  210  python chweb1.py 
+  211  nano chweb1.py
+  212  python chweb1.py 
+  213  nano chweb1.py
+  214  nano chweb2.py
+  215  python3
+  216  python3 chweb2.py
+  217  nano chweb2.py
+  218  python3 chweb2.py
+  219  nano chweb2.py
+  220  python3 chweb2.py
+  221  nano chweb2.py
+  222  python3 chweb2.py
+  223  nano chweb2.py
+  224  python3 chweb2.py
+  225  nano chweb2.py
+  226  python3 chweb2.py
+  227  nano chweb2.py
+  228  python3 chweb2.py
+  229  nano chweb2.py
+  230  python3 chweb2.py
+  231  nano chweb2.py
+  232  python3 chweb2.py
+  233  ls
+  234  rm a.py
+  235  rm b.py
+  236  rm chweb1.py
+  237  rm chweb.py
+  238  ls
+  239  python3 chweb2.py
+  240  clear
+  241  ls
+  242  crontab -l
+  243  ifconfig
+  244  ls
+  245  cd ..
+  246  ls
+  247  chmod 777 line
+  248  ls
+  249  cd line
+  250  ls
+  251  clear
+  252  ls
+  253  python3 linenotifychecktwo.py 
+  254  nano linenotifychecktwo.py 
+  255  python3 linenotifychecktwo.py 
+  256  nano linenotifychecktwo.py 
+  257  python3 linenotifychecktwo.py 
+  258  nano linenotifychecktwo.py 
+  259  python3 linenotifychecktwo.py 
+  260  nano linenotifychecktwo.py 
+  261  python3 linenotifychecktwo.py 
+  262  nano linenotifychecktwo.py 
+  263  python3 linenotifychecktwo.py 
+  264  nano linenotifychecktwo.py 
+  265  python3 linenotifychecktwo.py 
+  266  nano linenotifychecktwo.py 
+  267  python3 linenotifychecktwo.py 
+  268  nano linenotifychecktwo.py 
+  269  python3 linenotifychecktwo.py 
+  270  nano linenotifychecktwo.py 
+  271  python3 linenotifychecktwo.py 
+  272  nano linenotifychecktwo.py 
+  273  python3 linenotifychecktwo.py 
+  274  nano linenotifychecktwo.py 
+  275  python3 linenotifychecktwo.py 
+  276  nano linenotifychecktwo.py 
+  277  python3 linenotifychecktwo.py 
+  278  nano linenotifychecktwo.py 
+  279  python3 linenotifychecktwo.py 
+  280  nano linenotifychecktwo.py 
+  281  python3 linenotifychecktwo.py 
+  282  ls
+  283  python3 linenotifychecktwo.py 
+  284  nano linenotifychecktwo.py 
+  285  python3 linenotifychecktwo.py 
+  286  nano linenotifychecktwo.py 
+  287  cd /
+  288  ls
+  289  cd line
+  290  ls
+  291  nano linenotifychecktwo.py 
+  292  python3 linenotifychecktwo.py 
+  293  nano linenotifychecktwo.py 
+  294  python3 linenotifychecktwo.py 
+  295  crontab -e
+  296  python3 linenotifychecktwo.py 
+  297  nano linenotifychecktwo.py 
+  298  python3 linenotifychecktwo.py 
+  299  ls
+  300  crontab -l
+  301  python3 linenotifychecktwo.py 
+  302  nano linenotifychecktwo.py 
+  303  python3 linenotifychecktwo.py 
+  304  cd /
+  305  cd line
+  306  ls
+  307  cat chweb2.py
+  308  ls
+  309  python3 chweb2.py 
+  310  naon chweb2.py 
+  311  nano chweb2.py 
+  312  python3 chweb2.py 
+  313  ls
+  314  python3 linenotifychecktwo.py 
+  315  crontab -e
+  316  crontab -l
+  317  ls
+  318  crontab -e
+  319  time
+  320  date
+  321  crontab -e
+  322  crontab -l
+  323  cd /
+  324  ls
+  325  clear
+  326  ls
+  327  crontab -l
+  328  crontab -e
+  329  crontab -l
+  330  crontab -e
+  331  crontab -l
+  332  cd /line
+  333  nano linenotify
+  334  nano linenotify.py 
+  335  cd /line
+  336  ls
+  337  nano linenotify.py 
+  338  ls
+  339  nano linenotifychecktwo.py 
+  340  crontab -l
+  341  crontab -e
+  342  cd /line
+  343  ls
+  344  nano linenotify
+  345  nano linenotify.py
+  346  crontab -l
+  347  cd /line
+  348  cat linenotify.py
+  349  ls
+  350  python
+  351  python camera.py
+  352  nano camera.py 
+  353  python camera.py
+  354  nano camera.py 
+  355  cd /line
+  356  ls
+  357  nano camera.py
+  358  py camera.py
+  359  python camera.py
+  360  nano linenotify.py 
+  361  crontab -e
+  362  ls
+  363  cd /line
+  364  ls
+  365  nano linenotify.py 
+  366  python3 linenotify.py
+  367  crontab -e
+  368  cd /
+  369  ls
+  370  cd line
+  371  ls
+  372  nano linenotify.py
+  373  cd /line
+  374  ls
+  375  nano linenotify
+  376  nano linenotify.py
+  377  cd ..
+  378  ls
+  379  cd /line
+  380  ls
+  381  nano linenotify.py
+  382  python
+  383  nano t.py
+  384  python t.py
+  385  nano routers.txt
+  386  python t.py
+  387  nano routers.txt
+  388  python t.py
+  389  nano routers.txt
+  390  python t.py
+  391  telnet 192.168.13.118
+  392  nano routers.txt
+  393  python t.py
+  394  nano routers.txt
+  395  python t.py
+  396  nano routers.txt
+  397  python t.py
+  398  nano routers.txt
+  399  python t.py
+  400  nano t.py
+  401  crontab -l
+  402  ls -l
+  403  clear
+  404  crontab -l
+  405  pip install googlefinance
+  406  nano t1.py
+  407  python3 t1.py
+  408  python3 
+  409  python3 t1.py
+  410  pip install googlefinance
+  411  apt-get insall googlefinance
+  412  apt-get install googlefinance
+  413  ls
+  414  crontab -l
+  415  cd /line
+  416  ls
+  417  nano linenotify.py
+  418  crontab -l
+  419  cd /line
+  420  ls
+  421  nano linenotifychecktwo.py 
+  422  nano linenotify.py
+  423  ls
+  424  nano linenotify.py
+  425  docker
+  426  crontab -l
+  427  ls
+  428  docker ps
+  429  crontab -l
+  430  ls
+  431  cat t.py
+  432  nano t.py
+  433  ls
+  434  cat routers.txt 
+  435  ls
+  436  docker ps
+  437  crontab -l
+  438  pwd
+  439  cd /line
+  440  ls
+  441  nano linenotify.py
+  442  nano linenotifychecktwo.py 
+  443  docker
+  444  crontab -l
+  445  cd /line
+  446  ls
+  447  cat camera.py 
+  448  ls
+  449  clear
+  450  ls
+  451  cat linenotifychecktwo.py 
+  452  python -V
+  453  ls
+  454  pwd
+  455  crontab -l
+  456  history
+  457  history > m.txt

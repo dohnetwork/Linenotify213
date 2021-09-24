@@ -1,0 +1,8 @@
+#Comments here
+##
+##
+#route-server.eu.gblx.net,ios,telnet,23,,,show ip bgp 8.8.8.8
+#route-server.ip.att.net,junos,telnet,23,rviews,rviews,show route protocol bgp 8.8.8.8
+192.168.13.118,ios,telnet,23,cisco,cisco,en,ttcp -t -s -n 50 10.1.1.1
+##
+##
