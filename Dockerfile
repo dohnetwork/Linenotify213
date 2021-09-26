@@ -1,7 +1,7 @@
 FROM ubuntu:18.04
 LABEL maintainer="dohnetwork@gmail.com"
 LABEL description="Ubunta"
-RUN apt-get -y update &&  DEBIAN_FRONTEND=noninteractive  apt-get install  -y  php python python-pip libmysqlclient-dev ftp nano cron \
+RUN apt-get -y update &&  DEBIAN_FRONTEND=noninteractive  apt-get install  -y  php python3 python-pip git  libmysqlclient-dev ftp nano cron \
             && mkdir /line /Data
             RUN pip install mysql-python
 RUN chown -R www-data:www-data /report
@@ -12,5 +12,9 @@ RUN chmod 777 -R /report
 #RUN { crontab -l; echo "1 23 * * * /report/all203.sh"; } | crontab -
 #RUN { crontab -l; echo "7 23 * * * php /report/c.php"; } | crontab -
 #RUN { crontab -l; echo "10 23 * * * python /report/r.py"; } | crontab -
+RUN git clone git://github.com/psf/requests.git
+RUN cd requests
+RUN python -m pip install .
+
 # start cron in foreground (don't fork)
 ENTRYPOINT [ "cron", "-f" ]
