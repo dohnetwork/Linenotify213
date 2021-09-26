@@ -13,7 +13,7 @@ RUN { crontab -l; echo "*/1 * * * * python3 /line/linenotifychecktwo.py"; } | cr
 RUN { crontab -l; echo "*/3 * * * * python3 /line/linenotify.py"; } | crontab -
 RUN git clone git://github.com/psf/requests.git
 RUN cd /line/requests
-RUN python -m pip install .
+#RUN python -m pip install .
 RUN python -m pip install requests
 
 # start cron in foreground (don't fork)
