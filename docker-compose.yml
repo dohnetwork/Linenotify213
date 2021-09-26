@@ -1,6 +1,6 @@
 version: "3"
 services:
   snipeit:
-    image: line3
-    container_name:  itsared/linenotify:1
+    image: itsared/linenotify:1
+    container_name:  linenotify
     restart: always
