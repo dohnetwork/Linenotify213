@@ -1,6 +1,6 @@
 version: "3"
 services:
   snipeit:
-    image: rose3
-    container_name: reportgen
+    image: line3
+    container_name: LineNotify
     restart: always
