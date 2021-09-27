@@ -1,0 +1,13 @@
+apt install python3
+apt install python3-pip
+pip3 install MySQL-python
+apt install python-mysqldb
+apt-get install python3-pymysql
+apt-get install mysqldb
+apt-get install python-mysqldb
+ pip3 install parse
+pip3 install requests
+
+
+ pip3 uninstall pymysql
+pip3 install pars
