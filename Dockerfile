@@ -1,7 +1,8 @@
 FROM ubuntu:18.04
 LABEL maintainer="dohnetwork@gmail.com"
 LABEL description="Ubunta"
-RUN apt-get -y update &&  DEBIAN_FRONTEND=noninteractive  apt-get install  -y   python python3 python-pip git  libmysqlclient-dev  nano cron python3-pymysql \
+#RUN apt-get -y update &&  DEBIAN_FRONTEND=noninteractive  apt-get install  -y   python python3 python-pip git  libmysqlclient-dev  nano cron python3-pymysql \
+RUN apt-get -y update &&  DEBIAN_FRONTEND=noninteractive  apt-get install  -y   python python-pip git  libmysqlclient-dev  nano cron python-pymysql \
             && mkdir /line /Data
             RUN pip install mysql-python
 RUN chown -R www-data:www-data /line
