@@ -1,10 +1,15 @@
 FROM ubuntu:18.04
 LABEL maintainer="dohnetwork@gmail.com"
 LABEL description="Ubunta"
-#RUN apt-get -y update &&  DEBIAN_FRONTEND=noninteractive  apt-get install  -y   python python3 python-pip git  libmysqlclient-dev  nano cron python3-pymysql \
-RUN apt-get -y update &&  DEBIAN_FRONTEND=noninteractive  apt-get install  -y   python python-pip git  libmysqlclient-dev  nano cron python-pymysql \
+#RUN apt-get -y update &&  DEBIAN_FRONTEND=noninteractive  apt-get install  -y   python3 python-pip git  libmysqlclient-dev  nano cron python3-pip python-mysqldb \
+RUN apt-get -y update &&  DEBIAN_FRONTEND=noninteractive  apt-get install  -y   python python-pip git  libmysqlclient-dev  nano cron python3-pymysql mysqldb\
             && mkdir /line /Data
             RUN pip install mysql-python
+            RUN pip3 install MySQL-python    
+            RUN pip3 install parse
+            RUN pip3 install requests
+     
+           
 RUN chown -R www-data:www-data /line
 WORKDIR /line
 COPY ./line ./
@@ -15,7 +20,7 @@ RUN { crontab -l; echo "*/3 * * * * python3 /line/linenotify.py"; } | crontab -
 RUN git clone git://github.com/psf/requests.git
 RUN cd /line/requests
 #RUN python -m pip install .
-RUN python -m pip install requests
+#RUN python -m pip install requests
 
 # start cron in foreground (don't fork)
 ENTRYPOINT [ "cron", "-f" ]
