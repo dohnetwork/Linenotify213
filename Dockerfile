@@ -2,14 +2,13 @@ FROM ubuntu:18.04
 LABEL maintainer="dohnetwork@gmail.com"
 LABEL description="Ubunta"
 #RUN apt-get -y update &&  DEBIAN_FRONTEND=noninteractive  apt-get install  -y   python3 python-pip git  libmysqlclient-dev  nano cron python3-pip python-mysqldb \
-RUN apt-get -y update &&  DEBIAN_FRONTEND=noninteractive  apt-get install  -y   python python-pip git  libmysqlclient-dev  nano cron python3-pymysql mysqldb\
+RUN apt-get -y update &&  DEBIAN_FRONTEND=noninteractive  apt-get install  -y  python3 python3-pip  python-mysqldb python3-pymysql git  libmysqlclient-dev  nano cron   \
             && mkdir /line /Data
-            RUN pip install mysql-python
-            RUN pip3 install MySQL-python    
+#            RUN pip3 install mysql-python
+           # RUN pip3 install MySQL-python    
             RUN pip3 install parse
             RUN pip3 install requests
-     
-           
+          
 RUN chown -R www-data:www-data /line
 WORKDIR /line
 COPY ./line ./
